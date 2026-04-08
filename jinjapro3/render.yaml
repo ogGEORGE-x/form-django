@@ -4,7 +4,7 @@ databases:
 
 services:
   - type: web
-    name: gappx
+    name: my-django-app
     runtime: python
     buildCommand: "./build.sh"
     startCommand: "gunicorn jinjapro3.wsgi:application"
